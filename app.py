@@ -17,3 +17,6 @@ def get_score():
 
 def denoise_signal():
   print("Pre-processing in progress")
+
+if __name__ == "__main__":
+    app.run(debug=False)
